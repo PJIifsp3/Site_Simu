@@ -46,7 +46,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #007bff; 
+  color: #e068f8; 
 }
 
 main {
@@ -55,14 +55,11 @@ main {
 
 .container {
   width: 80%;
-  margin: 20px auto; 
+  margin: 50px auto; 
   padding: 20px;
   background-color: #ffffff;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  position: relative; /* Position the container relative to its parent */
-  bottom: 0; /* Position it at the bottom */
-  height: calc(100vh - 120px); /* Calculate height to subtract the header and footer */
    }
 
 }
@@ -138,4 +135,76 @@ h1 {
     color: #000000; /* Blue color */
     text-align: center; /* Center the title */
     margin-bottom: 20px; /* Add some bottom margin for spacing */
+}
+h2 {
+    font-family: 'Lato', sans-serif; /* Choose a bold sans-serif font */
+    font-size: 2em; /* Adjust font size as needed */
+    color: #000000; /* Blue color */
+    text-align: center; /* Center the title */
+    margin-bottom: 20px; /* Add some bottom margin for spacing */
+}
+h3 {
+    font-family: 'Lato', sans-serif; /* Choose a bold sans-serif font */
+    font-size: 1.5em; /* Adjust font size as needed */
+    color: #000000; /* Blue color */
+    text-align: center; /* Center the title */
+    margin-bottom: 20px; /* Add some bottom margin for spacing */
+    text-decoration: underline;
+    text-decoration-color: rebeccapurple;
+}
+
+.button-style {
+  display: inline-block;
+  padding: 15px 25px; 
+  border: 2px solid #8363ff;
+  border-radius: 5px; 
+  background-color: #8363ff; 
+  color: white; /* Add color for text contrast */
+  text-decoration: none; 
+  font-weight: bold; 
+  transition: background-color 0.3s; 
+  margin-bottom: 30px; /* Adds spacing between lines */
+  margin-right: 30px; /* Adds spacing between buttons */
+}
+
+.button-style:hover {
+  background-color: #b8a6ff; 
+  cursor: pointer; 
+}
+.button-group {
+  display: flex; /* Use flexbox for easy alignment */
+  justify-content: flex-start; /* Align items to the start of the container */
+  flex-wrap: wrap; /* Allow buttons to wrap to the next line if necessary */
+  text-align: center;
+}
+.button-style2 {
+  display: inline-block;
+  padding: 15px 25px; 
+  border: 2px solid #8363ff;
+  border-radius: 5px; 
+  background-color: #8363ff; 
+  color: white; /* Add color for text contrast */
+  text-decoration: none; 
+  font-weight: bold; 
+  transition: background-color 0.3s; 
+  margin-bottom: 30px; /* Adds spacing between lines */
+  margin-right: 100px; /* Adds spacing between buttons */
+
+}
+
+.button-style2:hover {
+  background-color: #b8a6ff; 
+  cursor: pointer; 
+}
+
+.logo {
+  display: flex; /* Use flexbox for easy alignment */
+  align-items: center; /* Vertically center the logo and text */
+}
+.site-title {
+  margin-left: 3px; /* Add spacing between the logo and the text */
+  font-size: 1.9em; /* Adjust font size as needed */
+  font-weight: bold; /* Make the text bold */
+  color: #333;
+  font-family: 'Georgia', sans-serif;
 }

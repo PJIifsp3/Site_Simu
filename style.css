@@ -208,3 +208,12 @@ h3 {
   color: #333;
   font-family: 'Georgia', sans-serif;
 }
+
+/* Estilo adicional para centralizar itens dentro de um grupo de botões */
+.button-group {
+    display: flex;
+    justify-content: center; /* Centraliza os botões horizontalmente */
+    flex-wrap: wrap; /* Permite que os botões se movam para a linha seguinte, se necessário */
+    gap: 10px; /* Espaçamento entre os botões */
+}
+
